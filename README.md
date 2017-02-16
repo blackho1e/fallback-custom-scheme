@@ -33,7 +33,7 @@ In view
 ```php
 // @app/views/layouts/main.php
 
-\blackho1e\FallbackCustomSchemeAsset::register($this);
+\blackho1e\FallbackCustomScheme\FallbackCustomSchemeAsset::register($this);
 // further code
 ```
 
@@ -43,7 +43,7 @@ or as a dependency in your app wide AppAsset.php
 // @app/assets/AppAsset.php
 
 public $depends = [
-    'blackho1e\FallbackCustomSchemeAsset',
+    'blackho1e\FallbackCustomScheme\FallbackCustomSchemeAsset',
     // more dependencies
 ];
 ```
